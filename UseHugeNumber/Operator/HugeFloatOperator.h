@@ -1,0 +1,8 @@
+//
+// Created by natbi on 16/05/2022.
+//
+
+#ifndef TP04_HUGEFLOATOPERATOR_H
+#define TP04_HUGEFLOATOPERATOR_H
+
+#endif //TP04_HUGEFLOATOPERATOR_H
