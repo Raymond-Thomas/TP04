@@ -1,8 +1,12 @@
-//
-// Created by natbi on 16/05/2022.
-//
+#ifndef OPERATOR_HUGE_INT
+#define OPERATOR_HUGE_INT
 
-#ifndef TP04_HUGEINTOPERATOR_H
-#define TP04_HUGEINTOPERATOR_H
+#include "../Type/HugeInt.h"
+#include "HugeUnsignedIntOperator.h"
 
-#endif //TP04_HUGEINTOPERATOR_H
+extern HugeInt* addHugeInt       (const HugeInt* operand1, const HugeInt* operand2);
+extern HugeInt* substractHugeInt (const HugeInt* operand1, const HugeInt* operand2);
+extern HugeInt* multiplyHugeInt  (const HugeInt* operand1, const HugeInt* operand2);
+extern HugeInt* divideHugeInt    (const HugeInt* operand1, const HugeInt* operand2);
+
+#endif // !OPERATOR_HUGE_INT
