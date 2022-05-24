@@ -20,14 +20,14 @@ HugeInt* createHugeIntFromString (const char* digitString) {
     if (hugeInt != NULL) {
         int explicitSign = 0;
         switch (*digitString) {
-            case '-':
-                hugeInt->sign = MINUS;
-                explicitSign++;
-                break;
-            case '+':
-                explicitSign++;
-            default:
-                hugeInt->sign = PLUS;
+        case '-':
+            hugeInt->sign = MINUS;
+            explicitSign++;
+            break;
+        case '+':
+            explicitSign++;
+        default:
+            hugeInt->sign = PLUS;
         }
 
         hugeInt->absoluteValue = createHugeUnsignedIntFromString (digitString + explicitSign);
